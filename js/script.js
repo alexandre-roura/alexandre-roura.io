@@ -101,6 +101,7 @@ window.onload = function() {
             projetPlus[i].style.display = 'none';
             projetMoins[i].style.display = 'block';
             var projetDescriptionHidden = document.getElementsByClassName('projet_description_hidden');
+            projetDescriptionHidden[i].style.display = 'block';
             projetDescriptionHidden[i].style.animation = 'fadeInUpDesc 0.3s forwards';
             var projetDescription = document.getElementsByClassName('projet_description');
             switch (i) {
@@ -120,6 +121,7 @@ window.onload = function() {
             projetPlus[i].style.display = 'flex';
             projetMoins[i].style.display = 'none';
             var projetDescriptionHidden = document.getElementsByClassName('projet_description_hidden');
+            projetDescriptionHidden[i].style.display = 'none';
             projetDescriptionHidden[i].style.animation = 'fadeInDownDesc 0.1s forwards';
             var projetDescription = document.getElementsByClassName('projet_description');
             projetDescription[i].style.height = '122.88px';
