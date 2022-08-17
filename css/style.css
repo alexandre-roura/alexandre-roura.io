@@ -597,6 +597,12 @@ section p {
 .slider {
     transition: transform 0.7s ease-in-out;
     width: 590px;
+    height: 310px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
 }
 
 .slider:hover{
@@ -604,23 +610,12 @@ section p {
 }
 
 .projet:nth-child(even) .slider {
-    height: 310px;
-    border-radius: 10px;
-    position: relative;
+
     left: -20px;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
 }
 
 .projet:nth-child(odd) .slider {
-    height: 310px;
-    border-radius: 10px;
-    position: relative;
     left: 20px;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
 }
 
 #projets .projet_img img{
