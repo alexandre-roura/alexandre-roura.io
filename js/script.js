@@ -149,6 +149,11 @@ window.onload = function() {
         }
         );
     }
+
+    if (window.innerWidth < 1200 || window.innerHeight < 600) {
+        alert('Le portfolio ne supporte pas votre taille d\'écran ! (1300x630) minimum');
+    }
+
     window.onresize = function() {
         if (window.innerHeight > 768) {
             var competenceImg = document.getElementsByClassName('competence_img');
