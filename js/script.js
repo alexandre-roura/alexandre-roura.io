@@ -121,12 +121,18 @@ window.onload = function() {
             projetPlus[i].style.display = 'flex';
             projetMoins[i].style.display = 'none';
             var projetDescriptionHidden = document.getElementsByClassName('projet_description_hidden');
-            projetDescriptionHidden[i].style.display = 'none';
             projetDescriptionHidden[i].style.animation = 'fadeInDownDesc 0.1s forwards';
+            projetDescriptionHidden[i].style.display = 'none';
             var projetDescription = document.getElementsByClassName('projet_description');
             projetDescription[i].style.height = '122.88px';
             projetDescription[i].style.marginBottom = '20px';
         }
         );
     }
+    window.onresize = function() {
+        if (window.innerWidth < 1480 || window.innerHeight < 720) {
+            alert('Le portfolio n\'est pas adapté à la taille de votre écran ! (1500x730) minimum');
+        }
+    }
+
 }
