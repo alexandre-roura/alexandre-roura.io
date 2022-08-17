@@ -230,6 +230,7 @@ section p {
 #fin_a_propos {
     position: relative;
     left: 10px;
+    top: -10px;
     transform: rotate(-4deg) scale(1.2, 1);
     height: 24vh;
     width: 1741px;
