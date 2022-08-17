@@ -1071,13 +1071,13 @@ footer p:hover{
 }
 
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1300px){
     body{
         display: none;
     }
 }
 
-@media screen and (max-height: 730px){
+@media screen and (max-height: 600px){
     body{
         display: none;
     }
@@ -1091,4 +1091,32 @@ footer p:hover{
         top: 100px;
     }
 }
+
+@media screen and (max-height: 768px){
+    #projets {
+        height: 3300px;
+    }
+
+    #competences .competences{
+        width: 650px;
+        height: 450px;
+    }
+    #competences .competence img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 1520px){
+    #fin_projets {
+        top: -10vh;
+    }
+}
+
+@media screen and (max-height: 768px) and (max-width: 1520px){
+    #competences .section_title{
+        top: -20px;
+    }
+
     
+}
