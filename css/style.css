@@ -191,6 +191,7 @@ section p {
 
 
 #accueil {
+    background-color: var(--sky-blue);
     background: url('../img/accueil-background.png') no-repeat center center/cover;
     height: 106vh;
     margin-top: -45px;
